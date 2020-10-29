@@ -27,3 +27,29 @@ body {
 .header li {
   padding: 15px 0;
 }
+
+.asider {
+  margin: 20px 40px;
+}
+
+.about-box {
+  width: 200px;
+  padding: 20px 10px;
+  background-color: #eeeeee;
+  margin: 10px 20px;
+}
+
+.asider-title {
+  font-style: italic;
+}
+
+.archives-box {
+  width: 200px;
+  padding: 20px 10px;
+  margin: 10px 20px;
+}
+
+.archives-content {
+  list-style: none;
+  padding: 0;
+}
