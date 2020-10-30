@@ -33,11 +33,11 @@ body {
 .main {
   display: flex;
   justify-content: start;
-  padding-top: 50px;
+  padding: 50px 0 100px 0;
 }
 
 .asider {
-  margin: 20px 40px;
+  margin: 20px 0px 20px 40px;
 }
 
 .about-box {
@@ -98,7 +98,7 @@ body {
   align-items: center;
   background-color: #eeeeee;
   position: fixed;
-  right: 1.5%;
+  right: 2%;
   top: calc(calc(100% - 142px)/2 - 90px + 50px);
   padding: 20px 0;
 }
