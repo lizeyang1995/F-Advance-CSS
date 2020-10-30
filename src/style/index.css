@@ -33,6 +33,7 @@ body {
 .main {
   display: flex;
   justify-content: start;
+  padding-top: 50px;
 }
 
 .asider {
