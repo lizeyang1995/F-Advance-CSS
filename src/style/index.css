@@ -99,7 +99,7 @@ body {
   background-color: #eeeeee;
   position: fixed;
   right: 1.5%;
-  top: calc(calc(100% - 162px)/2 - 43px + 50px);
+  top: calc(calc(100% - 142px)/2 - 90px + 50px);
   padding: 20px 0;
 }
 
@@ -132,4 +132,14 @@ body {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 7px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
