@@ -92,7 +92,8 @@ body {
 
 .login-content {
   width: 300px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: #eeeeee;
   position: fixed;
