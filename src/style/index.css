@@ -93,17 +93,19 @@ body {
 }
 
 .login-content {
-  width: 230px;
+  width: 300px;
   text-align: center;
   align-items: center;
   background-color: #eeeeee;
   position: fixed;
-  right: 5%;
+  right: 1.5%;
   top: calc(calc(100% - 162px)/2 - 43px + 50px);
   padding: 20px 0;
 }
 
 .email {
+  width: 240px;
+  font-size: medium;
   border: 1px solid lightgray;
   border-bottom: 0px;
   padding: 8px;
@@ -111,6 +113,8 @@ body {
 }
 
 .password {
+  width: 240px;
+  font-size: medium;
   border: 1px solid lightgray;
   padding: 8px;
   border-radius: 0 0 5px 5px;
@@ -122,10 +126,10 @@ body {
 
 .sign-in {
   font-size: medium;
-  width: 187px;
+  width: 238px;
   color: white;
   background-color: cornflowerblue;
   border: 1px solid lightgray;
   border-radius: 5px;
-  padding: 5px;
+  padding: 7px;
 }
