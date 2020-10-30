@@ -28,6 +28,11 @@ body {
   padding: 15px 0;
 }
 
+.main {
+  display: flex;
+  justify-content: start;
+}
+
 .asider {
   margin: 20px 40px;
 }
@@ -52,4 +57,35 @@ body {
 .archives-content {
   list-style: none;
   padding: 0;
+}
+
+.main-cotent {
+  margin: 20px 0;
+  max-width: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.article {
+  width: 350px;
+  border: 2px solid lightgray;
+  margin: 10px;
+}
+
+.article-content {
+  margin: 0;
+}
+
+.article-image {
+  width: 348px;
+}
+
+.article-describe {
+  margin: 0 10px;
+}
+
+.article-more {
+  color: blue;
 }
